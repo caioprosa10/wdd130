@@ -1,0 +1,67 @@
+
+
+/* Company Info Section */
+.company-info {
+  text-align: center;
+  margin: 20px auto;
+}
+
+.company-info iframe {
+  width: 100%;
+  max-width: 600px;
+  height: 400px;
+}
+
+/* Team Section */
+.team .profiles {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.team figure {
+  text-align: center;
+  margin: 10px;
+}
+
+.team img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+/* Contact Form */
+.contact-form {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form label,
+.contact-form legend {
+  margin: 10px 0 5px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.contact-form button:hover {
+  background-color: var(--secondary-color);
+}
