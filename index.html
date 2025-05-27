@@ -17,46 +17,82 @@
 </head>
 <body>
   <!-- HEADER -->
-  <header>
-    <img src="images/wwr-logo.jpg" alt="The Rapids Logo" width="150">
-    <nav>
-      <a href="index.html">Home</a>
-      <a href="about.html">About Us</a>
-      <a href="trips.html">Trips</a>
-      <a href="contact.html">Contact</a>
+  <header class="site-header">
+    <img src="images/wwr-logo.jpg" alt="The Rapids Logo" class="logo">
+    <h1 class="site-title">The Rapids Rafting Company</h1>
+    <nav class="site-nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="trips.html">Trips</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
     </nav>
   </header>
 
   <!-- MAIN -->
   <main>
-    <div class="hero">
+    <!-- Hero Section -->
+    <section class="hero">
       <img src="images/hero-background.jpg" alt="River Rapids">
-      <h1>The Rapids Rafting Company</h1>
-      <article>
-        <img src="images/happy-client.jpg" alt="Happy Client">
-        <p>Welcome to The Rapids! Our mission is to deliver thrilling whitewater adventures while keeping safety and fun at the forefront.</p>
-      </article>
-    </div>
-
-    <section>
-      <h2>History</h2>
-      <p>Founded in 2010, The Rapids began as a small family-run outfitter. Over the years we’ve guided thousands of adventurers through class III and IV rapids, building a legacy of excitement and trust.</p>
+      <div class="hero-overlay">
+        <article>
+          <img src="images/happy-client.jpg" alt="Happy Client" class="hero-client">
+          <p>
+            Welcome to The Rapids! Our mission is to deliver thrilling whitewater adventures 
+            while keeping safety and fun at the forefront.
+          </p>
+        </article>
+      </div>
     </section>
 
-    <section>
+    <!-- History Section -->
+    <section class="history">
+      <h2>History</h2>
+      <div class="history-content">
+        <p>
+          Founded in 2010, The Rapids began as a small family-run outfitter. Over the years 
+          we’ve guided thousands of adventurers through class III and IV rapids, building a 
+          legacy of excitement and trust.
+        </p>
+        <img src="images/history.jpg" alt="Historical rafting photo">
+        <p>
+          Our guides undergo rigorous training and certification to ensure every trip is both 
+          safe and unforgettable. We pride ourselves on our expert team and personalized service.
+        </p>
+      </div>
+    </section>
+
+    <!-- Adventures Section -->
+    <section class="adventures">
       <h2>Adventure Awaits You!</h2>
-      <div class="gallery">
-        <img src="images/raft1.jpg" alt="Rafting action 1">
-        <img src="images/raft2.jpg" alt="Rafting action 2">
-        <img src="images/raft3.jpg" alt="Rafting action 3">
-        <img src="images/raft4.jpg" alt="Rafting action 4">
-        <img src="images/raft5.jpg" alt="Rafting action 5">
+      <div class="adventure-gallery">
+        <figure>
+          <img src="images/raft1.jpg" alt="Los Dientes del Diablo">
+          <figcaption>Los Dientes del Diablo</figcaption>
+        </figure>
+        <figure>
+          <img src="images/raft2.jpg" alt="Big Mallard">
+          <figcaption>Big Mallard</figcaption>
+        </figure>
+        <figure>
+          <img src="images/raft3.jpg" alt="Half Day Adventure">
+          <figcaption>Half Day Adventure</figcaption>
+        </figure>
+        <figure>
+          <img src="images/raft4.jpg" alt="Sunset Rapids">
+          <figcaption>Sunset Rapids</figcaption>
+        </figure>
+        <figure>
+          <img src="images/raft5.jpg" alt="Family Fun Run">
+          <figcaption>Family Fun Run</figcaption>
+        </figure>
       </div>
     </section>
   </main>
 
   <!-- FOOTER -->
-  <footer>
+  <footer class="site-footer">
     <p>© 2025 The Rapids Rafting — Your Name</p>
     <nav class="socialmedia">
       <a href="#"><img src="images/icon-facebook.png" alt="Facebook"></a>
